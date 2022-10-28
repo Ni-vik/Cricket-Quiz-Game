@@ -1,0 +1,91 @@
+
+
+body {
+    background: #1E2B33;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+}
+
+#game-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.card {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+    margin:10px;
+}
+
+@media(max-width:800px) {
+    #game-card {
+        flex-direction: column;
+    }
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.card button {
+    background: #FFA000;
+    border-radius: 20px;
+    padding:10px 40px;
+}
+
+#champions-question-page,#jersey-question-page,#ipl-question-page{
+    display:none;
+}
+.question-heading{
+    /*border: 3px solid #fff;*/
+    text-align: center;
+    font-size: 36px;
+}
+
+.options{
+    margin-top:100px;
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.options button{
+    font-size:34px;
+    width:100%;
+    margin:3px;
+    border-radius:48px;
+    background-color: #42497F;
+    color: white;
+}
+
+#option-1 :focus-visible{ 
+    outline: 4px dashed darkorange;
+}
+#next{
+    margin-top:10px;
+    background: #FFA000;
+    border-radius: 20px;
+    padding:10px 40px;
+}
+
+#results-page{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}

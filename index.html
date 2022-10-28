@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:ital@1&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>crease</h1>
+    </div>
+
+    <!--Games card container-->
+    <section id="game-card">
+        <!--Champions-->
+        <div class="card">
+            <h3>Champions</h3>
+            <p>Choose the team that was crowned champions in the given tournament</p>
+            <button id="play-button-1">Play</button>
+        </div>
+        <!--Jersey-->
+        <div class="card">
+            <h3>Jersey</h3>
+            <p>Guess the player from jersy number or vice versa</p>
+            <button id="play-button-2">Play</button>
+        </div>
+        <!--IPL-->
+        <div class="card">
+            <h3>IPL</h3>
+            <p>Do you watch IPL religiously. Show us by playing.</p>
+            <button id="play-button-3">Play</button>
+        </div>
+    </section>
+    <!--Champions Question Page-->
+    <section id = "champions-question-page">
+ 
+        <h2>Champions</h2>
+        <div class="question-heading">
+            <h1 id = 'question'>ODI WC 1983</h1>
+        </div>
+        <div class="options">
+                <button id="option-1">India</button>
+                <button  id="option-2">Australia</button>
+                <button id="option-3">England</button>
+                <button  id="option-4">West Indies</button>
+        </div>
+        <button id = "next">Next</button>
+    </section>
+    <section id = 'results-page'>
+        <h3>Your Score Is</h3>
+        <h1 id = "result"></h1>
+    </section>
+    <script src="index.js" async defer></script>
+</body>
+
+</html>
